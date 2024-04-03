@@ -1,0 +1,11 @@
+{% extends "../base.html" %}
+
+
+{% block title %}Honey{% endblock  %}
+
+{% block content %}
+
+    <h1>Welcome to honey</h1>
+    <a href="{% url "honey:create_transaction" %}" class="btn btn-sm btn-primary">Create a transaction</a>
+
+{% endblock  %}
